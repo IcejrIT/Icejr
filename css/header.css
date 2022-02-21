@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+.sticky {
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+#user, #cart {
+    width:35px;
+}
+
+#header a, footer {
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+	text-decoration:none;
+}
+
+a:hover{
+    color:#909090;
+}
+#header ul {
+    margin-top: 10px;
+    margin-right: 100px;
+}
+#header ul li {
+    margin-right: 35px;
+    float: right;
+    display: inline;
+    list-style: none;
+}
+
+
+

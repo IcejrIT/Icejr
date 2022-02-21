@@ -1,0 +1,120 @@
+/* głowna info grafika*/
+.info_img{
+    width:100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#content h1{
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 800;
+    color:black;
+	font-style:bold;
+	text-decoration:none;
+    text-align: center;
+}
+
+/* karuzela Promocje */
+
+.OldPrice{
+    color:black;
+    text-decoration: line-through;
+    font-size: small;
+}
+
+.NewPrice{
+    color:red;
+}
+
+span {
+    color: black;
+}
+
+.carousel {
+    background-color: lightblue;
+}
+
+.carousel-container {
+    width:60%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 320px;
+}
+
+.carousel-slide-div {
+    display: inline;
+}
+
+.carousel-slide img {
+    height: 200px;
+}
+
+.carousel-slide a {
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+	text-decoration:none;
+    text-align: center;
+}
+
+/* karuzela przyciski (polecane)*/
+
+.carousel-sec {
+    background-color: lightpink;
+    position: relative;
+}
+
+.carousel-slide-sec {
+    display: flex;
+    width: 100%;
+    height: 340px;
+}
+
+.carousel-slide-sec img {
+    height: 200px;
+}
+
+.carousel-slide-sec a {
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+	text-decoration:none;
+    text-align: center;
+}
+
+#prev {
+    position: absolute;
+    top: 50%;
+    z-index: 10px;
+    left:15%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+#next {
+    position: absolute;
+    top: 50%;
+    z-index: 10px;
+    right:15%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+
+

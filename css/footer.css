@@ -1,0 +1,45 @@
+
+.footer {
+    clear: both;
+    display: flex;
+    border-top: 5px solid lightcyan;
+    background-color: lightsalmon;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:15px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 36px;
+}
+
+.footer a{
+    font-family: 'Open Sans', sans-serif; 
+    font-size:15px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 36px;
+    text-decoration:none;
+}
+
+.leftOne {
+    margin-top: 10px;
+    width:33%;
+    text-align: center;
+}
+
+.leftTwo {
+    margin-top: 10px;
+    width:33%;
+    text-align: center;
+}
+
+.rightOne {
+    margin-top: 10px;
+    width:33%;
+    text-align: center;
+}

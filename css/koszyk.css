@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content2{
+    text-align: center;
+    display: block;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+}
+
+
+.btn{
+	color:#fff;
+	background-color:hsl(6, 89%, 21%);
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+table {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.main td {
+    padding: 5px;
+    background-color: cyan;
+    border: 1px solid red;
+}
+
+
+.dane td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.dodaj td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.object{
+    margin-left: 25%;
+}
+
+.object img {
+    width: 50px;
+    height: 50px;
+}
+
+input {
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+}

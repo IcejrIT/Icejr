@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content2{
+    display: block;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:20px;   
+    font-weight: 600;
+    color:black;
+	font-style:bold;
+}
+
+.left1, .right1 {
+    float: left;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+
+.btn{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:10px;
+    margin-bottom:20px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+#content2 img {
+    width:80%;
+}
+
+
+input {
+    text-align: center;
+}
